@@ -23,7 +23,7 @@ $   python manage.py runserver 0:8000
 ###  my-com  :   http://192.168.56.101:8000/
 
 
-###  python manage.py startapp [앱이름]
+###  python manage.py startapp [App's Name]
 
 ```
 
