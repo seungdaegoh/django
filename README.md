@@ -4,9 +4,19 @@
 ```
 $   python -m venv myvenv
 
-(myvenv) ~$ pip install django
+$   source myvenv/bin/activate
 
-         ---> pip install django~=2.0.0
+    or  $  . myvenv/bin/activate
+  
+  
+--> // for myvenv   in (myvenv)
+
+(myvenv) $   python3 -m pip install --upgrade pip
+(myvenv) $   pip install  django
+
+        or $   pip install  django~=2.0.0
+
+// It will continue below  in (myvenv)
 
 
 $   django-admin django_prj mysite .    //end with '.' (dot)
