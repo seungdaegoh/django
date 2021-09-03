@@ -2,7 +2,7 @@
 ##  make Env
 
 ```
-$   python -m venv myvenv
+$   python3 -m venv myvenv
 
 $   source myvenv/bin/activate
 
@@ -21,9 +21,9 @@ $   source myvenv/bin/activate
 
 $   django-admin django_prj mysite .    //end with '.' (dot)
 
-$   python manage.py runserver
+$   python3 manage.py runserver
 or
-$   python manage.py runserver 0:8000
+$   python3 manage.py runserver 0:8000
 
 
 ```
